@@ -138,8 +138,9 @@
                 <label class="radio-inline"><input type="radio" name="q10" value="5">5 - Strongly Agree</label>
             </div>
         <hr>
-        <button type="submit" class="btn btn-primary btn-lg btn-block" id="submit"><i class="fa fa-check-circle" aria-hidden="true"></i>
+        <button type="submit" class="btn btn-primary btn-lg" id="submit"><i class="fa fa-check-circle" aria-hidden="true"></i>
             Submit</button>
+            <hr>
         <div>
             <a href="/">Home</a> |
             <a href="/api/friends">API Friend List</a> | 
@@ -147,34 +148,55 @@
         </div>
         <br>
     </div>
-
-</body>
-</html>
-
-<script type="text/javascript">
+    <div id="results-modal" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h2 class="modal-title"><strong>Best Match</strong></h2>
+            </div>
+            <div class="modal-body">
+                <h2 id="matchName"></h2>
+                <img style="width: 400px; height: auto;" id="matchPhoto" src="" alt="">
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+            </div>
+    
+        </div>
+    </div>
+    
+    <script type="text/javascript">
     $("#submit").on("click", function(event){
         event.preventDefault();
-
+        
         var newFriend = {
             name: $("#name").val().trim(),
             photo: $("#photo").val().trim(),
             scores: [
-                $("input[name=q1]:checked").val(),
-                $("input[name=q2]:checked").val(),
-                $("input[name=q3]:checked").val(),
-                $("input[name=q4]:checked").val(),
-                $("input[name=q5]:checked").val(),
-                $("input[name=q6]:checked").val(),
-                $("input[name=q7]:checked").val(),
-                $("input[name=q8]:checked").val(),
-                $("input[name=q9]:checked").val(),
-                $("input[name=q10]:checked").val()
+                $("input[name=q1]:checked").val().trim(),
+                $("input[name=q2]:checked").val().trim(),
+                $("input[name=q3]:checked").val().trim(),
+                $("input[name=q4]:checked").val().trim(),
+                $("input[name=q5]:checked").val().trim(),
+                $("input[name=q6]:checked").val().trim(),
+                $("input[name=q7]:checked").val().trim(),
+                $("input[name=q8]:checked").val().trim(),
+                $("input[name=q9]:checked").val().trim(),
+                $("input[name=q10]:checked").val().trim()
             ]
         };
+        console.log(newFriend);
         $.post("/api/friends", newFriend, function(data) {
-            
+            $("#matchName").text(data.matchName);
+            $("#matchPhoto").attr("src", data.matchImage);
+  
+            $("#results-modal").modal("toggle");
+  
         });
-
-
+        
     })
-</script>
+    </script>
+</body>
+</html>

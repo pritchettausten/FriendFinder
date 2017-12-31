@@ -1,88 +1,88 @@
 var friendsArray = [
     {
         name:"Ahmed",
-        photo:"",
-        scores:[5,1,4,4,5,1,2,5,4,1]
+        photo:"https://www2.isye.gatech.edu/people/faculty/Shabbir_Ahmed/Shabbir-Ahmed-2013-d.jpg",
+        "scores[]":[5,1,4,4,5,1,2,5,4,1]
     },
     {
         name:"Bob",
-        photo:"",
-        scores:[4,2,2,4,4,1,4,2,3,1]
+        photo:"https://www.biography.com/.image/t_share/MTE5NTU2MzE2MjA4OTg5NzA3/bob-dylan-9283052-1-402.jpg",
+        "scores[]":[4,2,2,4,4,1,4,2,3,1]
     },
     {
         name:"Brett",
-        photo:"",
-        scores:[4,5,3,2,2,2,5,5,1,1]
+        photo:"https://pbs.twimg.com/profile_images/812434343390040064/BwsBumbJ_400x400.jpg",
+        "scores[]":[4,5,3,2,2,2,5,5,1,1]
     },
     {
         name:"Billy",
-        photo:"",
-        scores:[1,2,3,4,5,3,4,2,5,1]
+        photo:"https://www.biography.com/.image/t_share/MTE5NDg0MDU0ODM1NzkxMzc1/billy-mays-wc-481592-1-402.jpg",
+        "scores[]":[1,2,3,4,5,3,4,2,5,1]
     },
     {
         name:"Katherine",
-        photo:"",
-        scores:[5,5,5,5,4,5,3,5,3,5]
+        photo:"https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Katherine_Harris_%28R%E2%80%93FL%29.jpg/1200px-Katherine_Harris_%28R%E2%80%93FL%29.jpg",
+        "scores[]":[5,5,5,5,4,5,3,5,3,5]
     },
     {
         name:"Jacob",
-        photo:"",
-        scores:[3,4,5,2,3,4,5,5,3,2]
+        photo:"https://i.pinimg.com/736x/88/f7/af/88f7af88055f5fb5cf74c6c5c01b1f78--hottest-actors-sexy-actors.jpg",
+        "scores[]":[3,4,5,2,3,4,5,5,3,2]
     },
     {
         name:"Megan",
-        photo:"",
-        scores:[1,2,1,2,1,3,4,5,5,4]
+        photo:"http://www.mayo.edu/research/-/media/kcms/employees/2017/11/20/02/31/megan-allyse-16224591.ashx",
+        "scores[]":[1,2,1,2,1,3,4,5,5,4]
     },
     {
         name:"Martha",
-        photo:"",
-        scores:[1,2,3,4,5,2,4,3,4,5]
+        photo:"https://pbs.twimg.com/profile_images/861750743434395648/MPgU7goR.jpg",
+        "scores[]":[1,2,3,4,5,2,4,3,4,5]
     },
     {
         name:"Peter",
-        photo:"",
-        scores:[5,4,3,4,5,4,5,4,3,5]
+        photo:"https://www.american.edu/uploads/profiles/large/kuznick-peter.jpg",
+        "scores[]":[5,4,3,4,5,4,5,4,3,5]
     },
     {
         name:"James",
-        photo:"",
-        scores:[1,3,2,5,4,3,5,4,3,5]
+        photo:"https://www.britishecologicalsociety.org/wp-content/uploads/2016/06/0X7A8645-1-384x368.jpg",
+        "scores[]":[1,3,2,5,4,3,5,4,3,5]
     },
     {
         name:"Samuel",
-        photo:"",
-        scores:[3,4,3,4,5,5,1,3,2,4]
+        photo:"https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Samuel_L._Jackson_SDCC_2014_%28cropped%29.jpg/1200px-Samuel_L._Jackson_SDCC_2014_%28cropped%29.jpg",
+        "scores[]":[3,4,3,4,5,5,1,3,2,4]
     },
     {
         name:"Jackie",
-        photo:"",
-        scores:[3,4,5,5,5,3,5,5,2,1]
+        photo:"https://pbs.twimg.com/profile_images/562908050432856064/dBcQ35OG.jpeg",
+        "scores[]":[3,4,5,5,5,3,5,5,2,1]
     },
     {
         name:"Sarah",
-        photo:"",
-        scores:[3,4,2,3,5,4,3,2,1,3]
+        photo:"https://vignette.wikia.nocookie.net/milomurphyslaw/images/d/d4/Sarah_Chalke.jpg/revision/latest?cb=20160206220728",
+        "scores[]":[3,4,2,3,5,4,3,2,1,3]
     },
     {
         name:"Paul",
-        photo:"",
-        scores:[4,5,3,3,3,4,3,4,2,3]
+        photo:"https://i.ytimg.com/vi/KdHUQtnJsyQ/hqdefault.jpg",
+        "scores[]":[4,5,3,3,3,4,3,4,2,3]
     },
     {
         name:"Ryan",
-        photo:"",
-        scores:[5,3,2,1,2,3,4,5,3,5]
+        photo:"https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Ryan_Gosling_2_Cannes_2011_%28cropped%29.jpg/220px-Ryan_Gosling_2_Cannes_2011_%28cropped%29.jpg",
+        "scores[]":[5,3,2,1,2,3,4,5,3,5]
     },
     {
         name:"Lucy",
-        photo:"",
-        scores:[3,4,2,5,5,1,5,2,5,2]
+        photo:"http://www.crystalinks.com/lucykin616.jpg",
+        "scores[]":[3,4,2,5,5,1,5,2,5,2]
     },
     {
         name:"Andrew",
-        photo:"",
-        scores:[3,3,2,4,2,4,2,5,4,5]
+        photo:"https://pbs.twimg.com/profile_images/807677779550449664/WXeIGZb5.jpg",
+        "scores[]":[3,3,2,4,2,4,2,5,4,5]
     }
 ];
 
